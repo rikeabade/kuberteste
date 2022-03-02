@@ -6,7 +6,7 @@ vms = {
   'kube-master'   => {'memory' => '2048', 'cpus' => 2, 'ip' => '101', 'box' => 'ubuntu/focal64', 'provision' => 'kube-master.sh'},
   'kube-worker-1' => {'memory' => '2048', 'cpus' => 2, 'ip' => '102', 'box' => 'ubuntu/focal64', 'provision' => 'kube-master.sh'},
   'kuber-worker-2'=> {'memory' => '2048', 'cpus' => 2, 'ip' => '103', 'box' => 'ubuntu/focal64', 'provision' => 'kube-master.sh'},
-  'postgresql'    => {'memory' => '2048', 'cpus' => 2, 'ip' => '104', 'box' => 'ubuntu/focal64', 'provision' => 'kube-master.sg'},
+  'postgresql'    => {'memory' => '2048', 'cpus' => 2, 'ip' => '104', 'box' => 'ubuntu/focal64', 'provision' => 'kube-master.sh'},
 }
 
 Vagrant.configure('2') do |config|
